@@ -1,0 +1,17 @@
+INSERT INTO `historial_clinico` (`id`, `expediente_paciente`, `fecha`) VALUES (NULL, '$', CURRENT_TIMESTAMP);
+
+INSERT INTO `ant_hereditarios` (`id_hc`, `ph1`, `ph2`, `ph3`) VALUES ('$', '$', '$', '$');
+
+INSERT INTO `ant_nopatologicos` (`id_hc`, `np1`, `np2`, `np3`, `np4`, `np5`, `np6`) VALUES ('$', '$', '$', '$', '$, $', '$', '$');
+
+INSERT INTO `ant_patologicos` (`id_hc`, `p1`, `p2`, `p3`, `p4`, `p5a`, `p5b`, `p5c`, `p6`, `p7`) VALUES ('$', '$', '$', '$', '$', '$', '$', '$', '$', '$');
+
+INSERT INTO `assv` (`id_hc`, `apt_digestivo`, `apt_respiratorio`, `apt_cardiovascular`, `sis_nervioso`, `sis_endocrino`, `apt_génito_urinario`, `sis_hematico_linfatico`, `frec_respiratoria`, `temp_corporal`, `presion_arterial`, `pulso`) VALUES ('$', '$', '$', '$', '$', '$', '$', '$', '$', '$', '$', '$');
+
+INSERT INTO `ex_extraoral` (`id_hc`, `pe1`, `pe2`, `pe3`, `pe4a`, `pe4b`, `pe4c`, `pe4d`, `pe4e`) VALUES ('$', '$', '$', '$', '$', '$', '$', '$', '$');
+
+INSERT INTO `ex_intraoral` (`id_hc`, `pi1`, `pi1a`, `pi2`, `pi3`, `pi4`, `pi5`, `pi6`, `pi7`, `pi8`, `pi9`, `pi10`, `pi11`, `pi12`, `pi12a`, `pi13`) VALUES ('$', '$', '$', '$', '$', '$', '$', '$', '$', '$', '$', '$', '$', '$', '$', '$');
+
+INSERT INTO `odontograma` (`id`, `id_hc`, `imagen`, `ex_clinicos`, `inter_radiografica`, `diagnostico`, `observaciones`) VALUES (NULL, '$', 'imagen', '4', '4', '4', '4');
+
+INSERT INTO `odontologicos` (`id_hc`, `po1`, `po2`, `po3`) VALUES ('$', '$', '$', '$');
